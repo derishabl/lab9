@@ -2,6 +2,7 @@
 
 int main() {
     double mass[30];
+	double y;
 
     for (int i = 0; i < 30; i++) {
         mass[i] = i; 
@@ -11,5 +12,8 @@ int main() {
 		printf("%d ", mass[i]);
 	}
 
+	for (int i = 0; i<30; i++){
+		y += mass[i];
+	}
     return 0;
 }
